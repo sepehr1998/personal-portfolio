@@ -1,14 +1,12 @@
 import About from  "../About"
-import Portfolio from "../Portfolio";
 
 function Home() {
     return(
-        <>
-            <div id="about">
+        <div className="px-5">
+            <div id="about" className="mt-5">
                 <About/>
-                <Portfolio/>
             </div>
-        </>
+        </div>
     )
 }
 
