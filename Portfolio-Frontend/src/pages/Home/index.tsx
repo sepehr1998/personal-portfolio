@@ -1,11 +1,13 @@
-import Navbar from "../../components/Navbar";
 import About from  "../About"
+import Portfolio from "../Portfolio";
 
 function Home() {
     return(
         <>
-            <Navbar/>
-            <About/>
+            <div id="about">
+                <About/>
+                <Portfolio/>
+            </div>
         </>
     )
 }

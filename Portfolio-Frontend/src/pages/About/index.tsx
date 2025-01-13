@@ -1,7 +1,10 @@
 function About(){
     return(
         <>
-            <div className="text-center">test</div>
+            <div>
+                <h2>About Me</h2>
+                <p>Some content about yourself...</p>
+            </div>
         </>
     )
 }
