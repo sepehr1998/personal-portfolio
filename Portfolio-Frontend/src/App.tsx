@@ -4,6 +4,8 @@ import Home from'./pages/Home';
 import Navbar from "./components/Navbar";
 import PortfolioPreview from "./pages/PortfolioPreview";
 
+import './App.css'
+
 function App() {
 
   return (

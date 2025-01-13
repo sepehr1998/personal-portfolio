@@ -5,8 +5,8 @@ function Navbar() {
     const isHomePage = location.pathname === '/';
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-transparent px-5">
-            <a className="navbar-brand" href="">Sepehr Samadi</a>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-transparent px-5">
+            <a className="navbar-brand text-gradient" href="">Sepehr Samadi</a>
             <button
                 className="navbar-toggler"
                 type="button"
@@ -23,9 +23,6 @@ function Navbar() {
                 <ul className="navbar-nav ms-auto mt-2 mt-lg-0 text-end">
                     {isHomePage ? (
                         <>
-                            <li className="nav-item active">
-                                <a className="nav-link" href="/">Home</a>
-                            </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#about">About</a>
                             </li>
