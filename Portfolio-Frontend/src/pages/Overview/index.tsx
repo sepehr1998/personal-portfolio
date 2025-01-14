@@ -1,7 +1,11 @@
 import Typewriter from 'typewriter-effect';
 import developerImage from '../../assets/images/development.png';
+import './overview.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faComputer, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-function About() {
+function Overview() {
+    const techStacks = ['Vue', 'React', 'Angular']
     return (
         <div className="container my-5">
             <div className="row align-items-center">
@@ -11,7 +15,7 @@ function About() {
                     <div className="d-flex flex-row align-items-center display-6">
                         <Typewriter
                             options={{
-                                strings: ['Vue', 'React', 'Angular'],
+                                strings: techStacks,
                                 autoStart: true,
                                 loop: true,
                             }}
@@ -20,6 +24,14 @@ function About() {
                     </div>
                     <br />
                     <p>Experienced frontend developer with +8 years of experience</p>
+                    <div className="d-flex flex-row align-items-center mt-4">
+                        <button className="glow-button me-4">
+                            <FontAwesomeIcon icon={ faComputer} className="me-3"/>Projects
+                        </button>
+                        <button className="glow-button">
+                            <FontAwesomeIcon icon={ faEnvelope} className="me-3"/>Contact
+                        </button>
+                    </div>
                 </div>
 
                 <div className="col-12 col-md-6 text-center text-md-end">
@@ -30,4 +42,4 @@ function About() {
     );
 }
 
-export default About;
+export default Overview;

@@ -24,6 +24,9 @@ function Navbar() {
                     {isHomePage ? (
                         <>
                             <li className="nav-item">
+                                <a className="nav-link" href="#overview">Overview</a>
+                            </li>
+                            <li className="nav-item">
                                 <a className="nav-link" href="#about">About</a>
                             </li>
                             <li className="nav-item">
