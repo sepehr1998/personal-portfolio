@@ -10,7 +10,7 @@ function Overview() {
     return (
         <div className="container my-5">
             <div className="row align-items-center">
-                <div className="col-12 col-md-6">
+                <div className="col-12 col-md-8">
                     <h1>Frontend</h1>
                     <h1 className="text-gradient">Developer</h1>
                     <div className="d-flex flex-row align-items-center display-6">
@@ -48,12 +48,12 @@ function Overview() {
                     </div>
                 </div>
 
-                <div className="col-12 col-md-6 text-center text-md-end">
+                <div className="col-lg-4 col-md-4 text-center text-md-end">
                     <img src={developerImage} alt="web development" className="img-fluid"/>
                 </div>
             </div>
         </div>
-    );
+    )
 }
 
 export default Overview;

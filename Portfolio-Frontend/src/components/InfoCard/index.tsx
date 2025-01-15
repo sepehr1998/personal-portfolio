@@ -14,7 +14,7 @@ function InfoCard({ children }: ICardProps) {
 
     return(
         <>
-            <div className="card">
+            <div className="info-card">
                 <div className="card-slot top-left">{children.topLeft}</div>
                 <div className="card-slot top-right">{children.topRight}</div>
                 <div className="card-slot bottom-left">{children.bottomLeft}</div>
