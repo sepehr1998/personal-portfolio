@@ -1,9 +1,9 @@
 .circular-image {
     width: 20rem;
     height: 20rem;
-    border: 5px solid silver;
+    border: 0.2rem solid silver;
     border-radius: 50%;
-    box-shadow: 0 8px 15px rgba(128, 0, 128, 0.6);
+    box-shadow: 0 0 4rem #5b5bc6;
     object-fit: cover;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -11,5 +11,5 @@
 /* Hover effect */
 .circular-image:hover {
     transform: scale(1.05);
-    box-shadow: 0 12px 20px rgba(128, 0, 128, 0.8);
+    box-shadow: 0 0 5rem rgba(128, 0, 128, 1);
 }

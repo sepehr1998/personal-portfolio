@@ -1,7 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faArrowsToDot, faFileZipper } from "@fortawesome/free-solid-svg-icons"
+import {faArrowsToDot, faArrowUpRightFromSquare, faCode, faFileZipper} from "@fortawesome/free-solid-svg-icons"
 import SepehrImage from '../../assets/images/sepehr.jpg'
 import './about.css'
+import InfoCard from '../../components/InfoCard'
 
 function About() {
     return (
@@ -27,7 +28,7 @@ function About() {
                         popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
                         passages.
                     </p>
-                    <div className="d-flex">
+                    <div className="d-flex mt-4">
                         <button className="button-gradient pe-3 py-2">
                             <FontAwesomeIcon icon={faFileZipper} className="mx-2" />
                             Download CV
@@ -37,6 +38,40 @@ function About() {
 
                 <div className="col-lg-6 col-md-12 text-center text-lg-end">
                     <img src={SepehrImage} alt="My Image" className="circular-image" />
+                </div>
+            </div>
+            <div className="d-flex mt-5 justify-content-between">
+                <div className="col-md-12 col-lg-4">
+                    <InfoCard>
+                        {{
+                            topLeft: <FontAwesomeIcon icon={faCode}/>,
+                            topRight: <h2>20</h2>,
+                            bottomLeft: <h4>Total Projects</h4>,
+                            bottomRight: <FontAwesomeIcon icon={faArrowUpRightFromSquare}/>,
+                        }}
+                    </InfoCard>
+                </div>
+
+                <div className="col-md-12 col-lg-4">
+                    <InfoCard>
+                        {{
+                            topLeft: <FontAwesomeIcon icon={faCode}/>,
+                            topRight: <h2>20</h2>,
+                            bottomLeft: <h4>Total Projects</h4>,
+                            bottomRight: <FontAwesomeIcon icon={faArrowUpRightFromSquare}/>,
+                        }}
+                    </InfoCard>
+                </div>
+
+                <div className="col-md-12 col-lg-4">
+                    <InfoCard>
+                        {{
+                            topLeft: <FontAwesomeIcon icon={faCode}/>,
+                            topRight: <h2>20</h2>,
+                            bottomLeft: <h4>Total Projects</h4>,
+                            bottomRight: <FontAwesomeIcon icon={faArrowUpRightFromSquare}/>,
+                        }}
+                    </InfoCard>
                 </div>
             </div>
         </div>

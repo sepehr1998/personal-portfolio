@@ -1,0 +1,28 @@
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(91, 91, 168, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    color: white;
+}
+
+.top-right {
+    justify-self: flex-end;
+}
+
+.bottom-right {
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+.bottom-left {
+    align-self: flex-end;
+}
