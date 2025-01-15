@@ -1,5 +1,23 @@
 .text-gradient {
-    background: linear-gradient(90deg, purple, yellow);
+    background: linear-gradient(90deg, purple, white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.button-gradient {
+    background: linear-gradient(90deg, #5b5bc6, #6f42c1);
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.button-gradient:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+}
+
+.button-gradient:active {
+    transform: translateY(2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
