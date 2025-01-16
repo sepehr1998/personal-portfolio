@@ -27,10 +27,17 @@ function Overview() {
                     <p>Experienced frontend developer with +8 years of experience</p>
                     <div className="d-flex flex-row align-items-center mt-4">
                         <button className="glow-button me-4">
-                            <FontAwesomeIcon icon={faComputer} className="me-3"/>Projects
+                            <FontAwesomeIcon
+                                icon={faComputer}
+                                className="me-3"
+                                onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}/>Projects
                         </button>
                         <button className="glow-button">
-                            <FontAwesomeIcon icon={faEnvelope} className="me-3"/>Contact
+                            <FontAwesomeIcon
+                                icon={faEnvelope}
+                                className="me-3"
+                                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                            />Contact
                         </button>
                     </div>
 
