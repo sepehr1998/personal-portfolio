@@ -1,5 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {faArrowsToDot, faArrowUpRightFromSquare, faCode, faFileZipper} from "@fortawesome/free-solid-svg-icons"
+import {
+    faArrowsToDot,
+    faArrowUpRightFromSquare, faCalendarDays,
+    faCode,
+    faFileZipper,
+    faTrophy
+} from "@fortawesome/free-solid-svg-icons"
 import SepehrImage from '../../assets/images/sepehr.jpg'
 import './about.css'
 import InfoCard from '../../components/InfoCard'
@@ -56,9 +62,9 @@ function About() {
                     <InfoCard>
                         {{
                             topLeft: <FontAwesomeIcon icon={faCode}/>,
-                            topRight: <h2>20</h2>,
-                            bottomLeft: <h4>Total Projects</h4>,
-                            bottomRight: <FontAwesomeIcon icon={faArrowUpRightFromSquare}/>,
+                            topRight: <h2>5</h2>,
+                            bottomLeft: <h4>Certificates</h4>,
+                            bottomRight: <FontAwesomeIcon icon={faTrophy} />,
                         }}
                     </InfoCard>
                 </div>
@@ -67,9 +73,9 @@ function About() {
                     <InfoCard>
                         {{
                             topLeft: <FontAwesomeIcon icon={faCode}/>,
-                            topRight: <h2>20</h2>,
-                            bottomLeft: <h4>Total Projects</h4>,
-                            bottomRight: <FontAwesomeIcon icon={faArrowUpRightFromSquare}/>,
+                            topRight: <h2>8</h2>,
+                            bottomLeft: <h4>Years of Experience</h4>,
+                            bottomRight: <FontAwesomeIcon icon={faCalendarDays} />,
                         }}
                     </InfoCard>
                 </div>

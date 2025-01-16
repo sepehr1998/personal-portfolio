@@ -25,4 +25,13 @@
 
 .bottom-left {
     align-self: flex-end;
+    flex-grow: 1;
+    width: 100%;
 }
+
+.card-slot {
+    display: flex;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
