@@ -61,10 +61,10 @@ function About() {
                 <div className="col-12 col-md-4">
                     <InfoCard>
                         {{
-                            topLeft: <FontAwesomeIcon icon={faCode}/>,
+                            topLeft: <FontAwesomeIcon icon={faTrophy}/>,
                             topRight: <h2>5</h2>,
                             bottomLeft: <h4>Certificates</h4>,
-                            bottomRight: <FontAwesomeIcon icon={faTrophy} />,
+                            bottomRight: <FontAwesomeIcon icon={faArrowUpRightFromSquare} />,
                         }}
                     </InfoCard>
                 </div>
@@ -72,10 +72,10 @@ function About() {
                 <div className="col-12 col-md-4">
                     <InfoCard>
                         {{
-                            topLeft: <FontAwesomeIcon icon={faCode}/>,
+                            topLeft: <FontAwesomeIcon icon={faCalendarDays}/>,
                             topRight: <h2>8</h2>,
                             bottomLeft: <h4>Years of Experience</h4>,
-                            bottomRight: <FontAwesomeIcon icon={faCalendarDays} />,
+                            bottomRight: <FontAwesomeIcon icon={faArrowUpRightFromSquare} />,
                         }}
                     </InfoCard>
                 </div>
