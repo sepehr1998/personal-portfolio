@@ -1,0 +1,19 @@
+button.linkedin-btn {
+    background-color: #0077B5;
+    color: white;
+}
+
+button.linkedin-btn:hover {
+    background-color: #7d7de4;
+    color: white;
+}
+
+button.github-btn {
+    background-color: #2b3137;
+    color: white;
+}
+
+button.github-btn:hover {
+    background-color: #7d7de4;
+    color: white;
+}

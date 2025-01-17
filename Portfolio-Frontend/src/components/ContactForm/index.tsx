@@ -16,7 +16,7 @@ function ContactForm() {
                     <input
                         type="text"
                         className="form-control"
-                        id="title"
+                        id="name"
                         placeholder="Title"
                     />
                     <label htmlFor="title">Title</label>
