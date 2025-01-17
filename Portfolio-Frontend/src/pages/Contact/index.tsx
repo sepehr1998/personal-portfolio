@@ -1,8 +1,14 @@
+import ContactForm from "../../components/ContactForm";
+
 function Contact(){
     return(
-        <>
-            <div className="text-center">Contact Section</div>
-        </>
+        <div className="container">
+            <div className="row">
+                <div className="col-12 col-md-6">
+                    <ContactForm/>
+                </div>
+            </div>
+        </div>
     )
 }
 

@@ -1,5 +1,6 @@
 import Overview from "../Overview"
 import About from "../About"
+import Contact from "../Contact";
 
 function Home() {
     return(
@@ -9,6 +10,9 @@ function Home() {
             </div>
             <div id="about" className="mt-5">
                 <About/>
+            </div>
+            <div id="contact" className="mt-5">
+                <Contact/>
             </div>
         </div>
     )

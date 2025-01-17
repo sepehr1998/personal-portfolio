@@ -1,0 +1,20 @@
+.input-with-icon {
+    position: relative;
+}
+
+.input-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: gray;
+    z-index: 3;
+}
+
+.input-with-icon .form-control {
+    padding-left: 40px;
+}
+
+.form-floating > label {
+    padding-left: 40px;
+}
