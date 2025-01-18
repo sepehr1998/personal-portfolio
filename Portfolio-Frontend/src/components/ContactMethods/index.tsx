@@ -10,12 +10,12 @@ function ContactMethods() {
 
             <div className="d-flex align-items-center mb-3">
                 <FontAwesomeIcon icon={faPhone} className="me-3 text-primary-emphasis" />
-                <p className="m-0">+358466412871</p>
+                <h5 className="m-0">+358466412871</h5>
             </div>
 
             <div className="d-flex align-items-center mb-4">
                 <FontAwesomeIcon icon={faEnvelope} className="me-3 text-primary-emphasis" />
-                <p className="m-0">samadisepehr@gmail.com</p>
+                <h5 className="m-0">samadisepehr@gmail.com</h5>
             </div>
 
             <button
@@ -34,7 +34,7 @@ function ContactMethods() {
                 GitHub
             </button>
         </div>
-    );
+    )
 }
 
 export default ContactMethods;

@@ -3,7 +3,7 @@ function ContactForm() {
         <>
             <h1 className="text-gradient">Get in Touch</h1>
             <form className="container mt-5">
-                <div className="form-floating mb-4 input-with-icon">
+                <div className="form-floating mb-4 input-with-icon text-dark">
                     <input
                         type="text"
                         className="form-control"
@@ -12,7 +12,7 @@ function ContactForm() {
                     />
                     <label htmlFor="title">Name</label>
                 </div>
-                <div className="form-floating mb-4 input-with-icon">
+                <div className="form-floating mb-4 input-with-icon text-dark">
                     <input
                         type="text"
                         className="form-control"
@@ -22,7 +22,7 @@ function ContactForm() {
                     <label htmlFor="title">Title</label>
                 </div>
 
-                <div className="form-floating mb-4 input-with-icon">
+                <div className="form-floating mb-4 input-with-icon text-dark">
                     <input
                         type="email"
                         className="form-control"
@@ -32,7 +32,7 @@ function ContactForm() {
                     <label htmlFor="email">Email</label>
                 </div>
 
-                <div className="form-floating mb-4 input-with-icon">
+                <div className="form-floating mb-4 input-with-icon text-dark">
                     <textarea
                         className="form-control"
                         id="message"
