@@ -1,3 +1,9 @@
-.form-control {
+.form-control-field {
+    background-color: rgba(91, 91, 168, 0.3) !important;
+}
+
+.form-body {
     background-color: rgba(91, 91, 168, 0.3);
+    padding: 2rem;
+    border-radius: 1rem;
 }

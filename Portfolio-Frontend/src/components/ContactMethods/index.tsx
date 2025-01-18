@@ -5,7 +5,7 @@ import "./contact-methods.css";
 
 function ContactMethods() {
     return (
-        <div className="container">
+        <div className="container section-body">
             <h1 className="text-gradient mb-5">Connect With Me</h1>
 
             <div className="d-flex align-items-center mb-3">
