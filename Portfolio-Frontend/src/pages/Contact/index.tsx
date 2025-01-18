@@ -1,5 +1,5 @@
 import ContactForm from "../../components/ContactForm";
-import SocialButtons from "../../components/SocialButtons";
+import SocialButtons from "../../components/ContactMethods";
 
 function Contact(){
     return(
