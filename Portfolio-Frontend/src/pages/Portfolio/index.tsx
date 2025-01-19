@@ -2,6 +2,7 @@
 // import {useState} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCode, faGears, faTrophy} from "@fortawesome/free-solid-svg-icons";
+import './portfolio.css'
 
 function Portfolio(){
     // const selectedSection = useState("projects")
@@ -19,15 +20,17 @@ function Portfolio(){
             <h2 className="text-gradient text-center">My Portfolio</h2>
             <div className="row justify-content-center mt-5">
                 <div className="col col-3 mx-auto">
-                    <button className="text-center">
+                    <button className="text-center section-selector-button">
                         <FontAwesomeIcon icon={faCode}/> Projects
                     </button>
-                </div>                <div className="col col-3 mx-auto">
-                    <button className="text-center">
+                </div>
+                <div className="col col-3 mx-auto">
+                    <button className="text-center section-selector-button">
                         <FontAwesomeIcon icon={faTrophy}/> Certificates
                     </button>
-                </div>                <div className="col col-3 mx-auto">
-                    <button className="text-center">
+                </div>
+                <div className="col col-3 mx-auto">
+                    <button className="text-center section-selector-button">
                         <FontAwesomeIcon icon={faGears}/> Tech Stacks
                     </button>
                 </div>
