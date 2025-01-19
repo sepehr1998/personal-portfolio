@@ -41,3 +41,7 @@
 .section-selector-button:hover {
     color: white;
 }
+
+.project-card {
+    background-color: rgba(91, 91, 168, 0.3) !important;
+}
