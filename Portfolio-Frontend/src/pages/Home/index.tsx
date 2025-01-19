@@ -1,6 +1,7 @@
 import Overview from "../Overview"
 import About from "../About"
 import Contact from "../Contact";
+import Portfolio from "../Portfolio";
 
 function Home() {
     return(
@@ -10,6 +11,9 @@ function Home() {
             </div>
             <div id="about" className="mt-5">
                 <About/>
+            </div>
+            <div id="portfolio" className="mt-5">
+                <Portfolio/>
             </div>
             <div id="contact" className="mt-5">
                 <Contact/>
