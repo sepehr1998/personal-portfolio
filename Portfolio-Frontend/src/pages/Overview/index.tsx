@@ -4,6 +4,7 @@ import './overview.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComputer, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-scroll";
 
 function Overview() {
     const techStacks = ['Vue', 'React', 'Angular']
@@ -26,19 +27,27 @@ function Overview() {
                     <br/>
                     <p>Experienced frontend developer with +8 years of experience</p>
                     <div className="d-flex flex-row align-items-center mt-4">
-                        <button className="glow-button me-4">
-                            <FontAwesomeIcon
-                                icon={faComputer}
-                                className="me-3"
-                                onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}/>Projects
-                        </button>
-                        <button className="glow-button">
-                            <FontAwesomeIcon
-                                icon={faEnvelope}
-                                className="me-3"
-                                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                            />Contact
-                        </button>
+                        <Link
+                            to="portfolio"
+                            smooth={true}
+                            duration={500}>
+                            <button className="glow-button me-4">
+                                <FontAwesomeIcon
+                                    icon={faComputer}
+                                    className="me-3"/>Projects
+                            </button>
+                        </Link>
+                        <Link
+                            to="contact"
+                            smooth={true}
+                            duration={500}>
+                            <button className="glow-button">
+                                <FontAwesomeIcon
+                                    icon={faEnvelope}
+                                    className="me-3"
+                                />Contact
+                            </button>
+                        </Link>
                     </div>
 
                     <div className="d-flex flex-row align-items-center mt-5">
@@ -62,5 +71,4 @@ function Overview() {
         </div>
     )
 }
-
 export default Overview;
