@@ -3,15 +3,10 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faGears, faTrophy } from "@fortawesome/free-solid-svg-icons";
 import './portfolio.css';
+import { projects } from "../../data/projectsList.ts";
 
 function Portfolio() {
     const [selectedSection, setSelectedSection] = useState("projects");
-
-    const projects = [
-        { id: 1, name: 'Project One', description: 'This is project one.' },
-        { id: 2, name: 'Project Two', description: 'This is project two.' },
-        { id: 3, name: 'Project Three', description: 'This is project three.' },
-    ]
 
     const handleSectionChange = (section: string) => {
         setSelectedSection(section);
