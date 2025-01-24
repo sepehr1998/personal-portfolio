@@ -6,7 +6,6 @@ interface ICardProps {
         topLeft: ReactNode;
         topRight: ReactNode;
         bottomLeft: ReactNode;
-        bottomRight: ReactNode;
     }
 }
 
@@ -18,7 +17,6 @@ function InfoCard({ children }: ICardProps) {
                 <div className="card-slot top-left">{children.topLeft}</div>
                 <div className="card-slot top-right">{children.topRight}</div>
                 <div className="card-slot bottom-left">{children.bottomLeft}</div>
-                <div className="card-slot bottom-right">{children.bottomRight}</div>
             </div>
         </>
     )

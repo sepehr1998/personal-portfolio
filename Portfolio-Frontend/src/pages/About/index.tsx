@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
     faArrowsToDot,
-    faArrowUpRightFromSquare, faCalendarDays,
+    faCalendarDays,
     faCode,
     faFileZipper,
     faTrophy
@@ -52,8 +52,7 @@ function About() {
                         {{
                             topLeft: <FontAwesomeIcon icon={faCode}/>,
                             topRight: <h2>20</h2>,
-                            bottomLeft: <h4>Total Projects</h4>,
-                            bottomRight: <FontAwesomeIcon icon={faArrowUpRightFromSquare}/>,
+                            bottomLeft: <h4>Total Projects</h4>
                         }}
                     </InfoCard>
                 </div>
@@ -64,7 +63,6 @@ function About() {
                             topLeft: <FontAwesomeIcon icon={faTrophy}/>,
                             topRight: <h2>5</h2>,
                             bottomLeft: <h4>Certificates</h4>,
-                            bottomRight: <FontAwesomeIcon icon={faArrowUpRightFromSquare} />,
                         }}
                     </InfoCard>
                 </div>
@@ -74,8 +72,7 @@ function About() {
                         {{
                             topLeft: <FontAwesomeIcon icon={faCalendarDays}/>,
                             topRight: <h2>8</h2>,
-                            bottomLeft: <h4>Years of Experience</h4>,
-                            bottomRight: <FontAwesomeIcon icon={faArrowUpRightFromSquare} />,
+                            bottomLeft: <h4>Years of Experience</h4>
                         }}
                     </InfoCard>
                 </div>
