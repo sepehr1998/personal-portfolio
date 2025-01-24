@@ -5,7 +5,7 @@ function Navbar() {
     const isHomePage = location.pathname === '/';
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-transparent px-5">
+        <nav className="navbar navbar-expand-lg px-5 sticky-top navbar-dark bg-dark">
             <a className="navbar-brand text-gradient" href="">Sepehr Samadi</a>
             <button
                 className="navbar-toggler"
