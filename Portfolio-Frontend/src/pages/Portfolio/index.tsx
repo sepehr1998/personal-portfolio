@@ -3,7 +3,8 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faGears, faTrophy } from "@fortawesome/free-solid-svg-icons";
 import './portfolio.css';
-import { projects } from "../../data/projectsList.ts";
+import { projectsList } from "../../data/projectsList.ts";
+import { certificatesList } from "../../data/certificatesList.ts";
 
 function Portfolio() {
     const [selectedSection, setSelectedSection] = useState("projects");
@@ -43,7 +44,7 @@ function Portfolio() {
             </div>
             <div className="row col-12 mt-5">
                 {selectedSection === "projects" &&
-                    projects.map((project) => (
+                    projectsList.map((project) => (
                         <div key={project.id} className="col col-4">
                             <div className="card project-card text-light">
                                 <div className="card-body">
@@ -58,11 +59,17 @@ function Portfolio() {
                             </div>
                         </div>
                     ))}
-                {selectedSection === "certificates" && (
-                    <div className="text-center">
-                        <p>No certificates added yet.</p>
-                    </div>
-                )}
+                {selectedSection === "certificates" &&
+                    certificatesList.map((certificate) => (
+                        <div key={certificate.id} className="col col-4">
+                            <div className="card project-card text-light">
+                                <img className="card-img-top" src={certificate.imageUrl} alt="Card image cap"/>
+                                <div className="card-body">
+                                    <h5 className="card-title">{certificate.name}</h5>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 {selectedSection === "techStacks" && (
                     <div className="text-center">
                         <p>Here are the tech stacks I use!</p>
